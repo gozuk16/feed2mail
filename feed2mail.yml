@@ -1,0 +1,16 @@
+smtp:
+        host: smtp.example.com
+        auth: false
+        from: gozuk16+feed2mail@gmail.com
+        sender: gozuk16+feed2mail@gmail.com
+        recipient: "gozuk16@gmail.com, gozuk16+test@gmail.com"
+        debug: "false"
+
+feed:
+        uri: [http://gozuk16.hatenablog.com/rss, http://feeds.feedburner.com/AtlassianJapan]
+
+mongo:
+        host: localhost
+        db: feed2mail
+        collection: entries
+
